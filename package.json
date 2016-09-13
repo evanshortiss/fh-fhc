@@ -6,6 +6,7 @@
   "keywords": [
     "feedhenry"
   ],
+  "files": ["lib/", "bin/", "man1/", "po/"],
   "preferGlobal": true,
   "homepage": "http://git.io/fh-fhc",
   "author": "FeedHenry<npm@feedhenry.com>",
