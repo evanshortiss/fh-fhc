@@ -1,7 +1,7 @@
 {
   "name": "fh-fhc",
   "description": "A Command Line Interface for FeedHenry",
-  "version": "2.17.1-BUILD-NUMBER",
+  "version": "2.18.0-BUILD-NUMBER",
   "_minPlatformVersion": "3.11.0",
   "keywords": [
     "feedhenry"
@@ -30,6 +30,7 @@
     "colors": "0.6.2",
     "findit": "2.0.0",
     "fstream": "0.1.22",
+    "lodash.set": "~4.3.2",
     "mime": "1.2.9",
     "moment": "2.0.0",
     "node-gettext": "1.1.0",
@@ -41,15 +42,16 @@
     "request": "2.74.0",
     "semver": "4.3.6",
     "tabtab": "0.0.2",
+    "tar": "2.2.1",
     "underscore": "1.8.0",
     "underscore-deep-extend": "0.0.5",
     "unzip": "0.1.7",
-    "tar": "2.2.1",
     "yargs": "2.1.1"
   },
   "devDependencies": {
     "fs-extra": "0.12.0",
     "grunt": "^0.4.5",
+    "grunt-cli": "~1.2.0",
     "grunt-concurrent": "1.0.0",
     "grunt-contrib-jshint": "0.10.0",
     "grunt-fh-build": "0.5.0",
@@ -63,6 +65,7 @@
     "load-grunt-tasks": "0.4.0",
     "nock": "8.0.0",
     "proxyquire": "0.4.1",
+    "sinon": "~1.17.7",
     "time-grunt": "0.3.1",
     "turbo-test-runner": "0.3.3"
   },
